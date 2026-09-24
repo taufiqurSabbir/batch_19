@@ -2,6 +2,7 @@ import 'package:batch_19/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'module_5/class_3.dart';
+import 'module_6/class_1.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Batch 19',
-      home: M5Class3(),
+      home: Module6Class1(),
     );
   }
 }

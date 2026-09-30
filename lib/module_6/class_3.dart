@@ -19,6 +19,9 @@ class Module6Class3 extends StatelessWidget {
         padding: EdgeInsets.all(10),
         child: Column(
           children: [
+            ElevatedButton(onPressed: (){
+              Navigator.pop(context);
+            }, child: Text('Next class')),
             SizedBox(height: 25,),
             TextField(
               controller: phoneController,

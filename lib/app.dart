@@ -7,6 +7,7 @@ import 'module_6/class_2.dart';
 import 'module_6/class_3.dart';
 import 'module_6/gridV.dart';
 import 'module_7/class_1.dart';
+import 'module_7/class_2.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Batch 19',
-      home: Module7Class1(),
+      home: module7Class2(),
     );
   }
 }
